@@ -12,30 +12,26 @@
     </header>
 
     <main class="form-wrapper">
-      <div class="form-box">
+      <form action="" method="post">
+
         <div>
-          <div>Nombre</div>
-          <div>
-            <input type="text" name="nombre" />
-          </div>
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" name="nombre" id="nombre"><br><br>
         </div>
 
         <div>
-          <div>Email</div>
-          <div>
-            <input type="email" name="email" />
-          </div>
+          <label for="email">Email:</label><br>
+          <input type="email" name="email" id="email"><br><br>
         </div>
+          
 
         <div>
-          <div>Mensaje</div>
-          <div>
-            <textarea name="mensaje"></textarea>
-          </div>
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea name="mensaje" id="mensaje"></textarea><br><br>
         </div>
 
         <button type="submit">Enviar</button>
-      </div>
+      </form>
     </main>
   </body>
 </html>
